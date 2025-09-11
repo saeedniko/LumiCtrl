@@ -624,6 +624,10 @@
     [
       "553f4064-1b58-4537-a39d-77654c96e0b7",
       "USB"
+    ],
+    [
+      "dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57",
+      "Power"
     ]
   ],
   "text_variables": {}
