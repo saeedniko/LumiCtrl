@@ -605,7 +605,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -628,6 +628,10 @@
     [
       "dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57",
       "Power"
+    ],
+    [
+      "cebad8a2-135e-4833-960d-711ac7f70c94",
+      "Signal"
     ]
   ],
   "text_variables": {}
