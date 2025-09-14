@@ -8873,7 +8873,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:PWP0016H-MFG"
+		(property "Footprint" "footprints:PWP0016H-IPC_A"
 			(at 102.87 120.65 0)
 			(effects
 				(font

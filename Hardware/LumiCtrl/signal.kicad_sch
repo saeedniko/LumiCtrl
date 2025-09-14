@@ -5885,7 +5885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-353F   USV_TOS"
+		(property "Footprint" "TC7SET126FU:SOT-353F   USV_TOS"
 			(at 87.63 33.02 0)
 			(effects
 				(font
