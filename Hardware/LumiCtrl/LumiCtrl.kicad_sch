@@ -3391,7 +3391,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_green"
 			(at 192.0875 96.52 0)
 			(effects
 				(font
@@ -3399,7 +3399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n/10V"
+		(property "Value" "100n/50V"
 			(at 109.22 39.3699 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED_green"
 			(at 204.7875 93.98 0)
 			(effects
 				(font
@@ -3905,7 +3905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 203.2 99.06 0)
 			(effects
 				(font
@@ -3974,7 +3974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n/10V"
+		(property "Value" "100n/50V"
 			(at 193.548 74.676 0)
 			(effects
 				(font
