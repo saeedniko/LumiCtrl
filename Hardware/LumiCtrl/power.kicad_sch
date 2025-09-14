@@ -3300,6 +3300,12 @@
 		(uuid "2b01d414-01ee-424f-8bcb-0d3c1891121e")
 	)
 	(junction
+		(at 83.82 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30c288ce-7e10-4a8a-8439-0d70f3c61a59")
+	)
+	(junction
 		(at 199.39 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3438,12 +3444,6 @@
 		(uuid "c70e918f-7ace-4f93-8e20-1fa9c4b979e6")
 	)
 	(junction
-		(at 223.52 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c72ef337-f488-4f03-b93e-8c35c42b6b01")
-	)
-	(junction
 		(at 146.05 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3534,12 +3534,6 @@
 		(uuid "ee42aa06-41ef-4bf0-b03a-9cdc63706ea6")
 	)
 	(junction
-		(at 223.52 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee79d217-d416-453d-8256-cfb2c429282e")
-	)
-	(junction
 		(at 149.86 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3590,6 +3584,16 @@
 			(type default)
 		)
 		(uuid "0060fb81-4310-4b7d-8717-661fa7a3b9ce")
+	)
+	(wire
+		(pts
+			(xy 83.82 73.66) (xy 83.82 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ead1a3-69a2-4cad-9844-f92ec6620a42")
 	)
 	(wire
 		(pts
@@ -3933,7 +3937,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 73.66) (xy 236.22 73.66)
+			(xy 209.55 73.66) (xy 236.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4030,16 +4034,6 @@
 			(type default)
 		)
 		(uuid "3400951f-4e57-44fc-bf71-9c9cb0699443")
-	)
-	(wire
-		(pts
-			(xy 223.52 49.53) (xy 223.52 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365b2d41-fa25-4825-9992-19875cd56e58")
 	)
 	(wire
 		(pts
@@ -4333,16 +4327,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 73.66) (xy 223.52 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63dcc1cf-f5ae-4d53-9907-a3d93f9efeff")
-	)
-	(wire
-		(pts
 			(xy 146.05 100.33) (xy 170.18 100.33)
 		)
 		(stroke
@@ -4540,16 +4524,6 @@
 			(type default)
 		)
 		(uuid "7a5e4096-5dcd-4e2f-bd9e-b0b9538e9946")
-	)
-	(wire
-		(pts
-			(xy 236.22 35.56) (xy 223.52 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eb3dd7c-9529-4265-b9e1-162bf65171d0")
 	)
 	(wire
 		(pts
@@ -4853,7 +4827,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 35.56) (xy 223.52 35.56)
+			(xy 209.55 35.56) (xy 236.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5170,16 +5144,6 @@
 			(type default)
 		)
 		(uuid "d8d3e405-3106-4b73-a884-4d32466e2198")
-	)
-	(wire
-		(pts
-			(xy 223.52 35.56) (xy 223.52 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d925d653-1039-4930-a7c1-322779e2e00a")
 	)
 	(wire
 		(pts
@@ -7261,76 +7225,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 223.52 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "639b0827-cecf-4dda-a8ed-d2c8a0323e1d")
-		(property "Reference" "C16"
-			(at 227.33 44.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u/10V"
-			(at 227.33 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 224.4852 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3819f0b1-b4dd-4e34-b63a-84b7bb4b1e68")
-		)
-		(pin "1"
-			(uuid "b34fc2e9-4bca-4fd1-8b7e-c1084be120ab")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 200.66 135.89 270)
 		(unit 1)
@@ -8071,6 +7965,72 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c8f88a0-9d27-4450-ae3f-d2903f28ddaa")
+		(property "Reference" "#PWR031"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b520fdcf-f1ac-462c-8853-f1116bd55b1a")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
