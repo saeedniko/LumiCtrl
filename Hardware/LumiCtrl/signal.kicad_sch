@@ -1478,8 +1478,8 @@
 			)
 			(symbol "TPS62081DSGR_0_0"
 				(rectangle
-					(start -12.7 -15.24)
-					(end 12.7 15.24)
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -1628,6 +1628,26 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS62081DSGR_1_1"
+				(pin power_in line
+					(at -15.24 -11.43 0)
+					(length 2.54)
+					(name "Pad"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2358,6 +2378,12 @@
 		(uuid "723c29e6-a8ad-4d1b-b217-39d6880a2ee1")
 	)
 	(junction
+		(at 203.2 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75719b38-5953-4247-8a2f-0e5837b78f72")
+	)
+	(junction
 		(at 53.34 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2524,6 +2550,16 @@
 			(type default)
 		)
 		(uuid "072913dd-1300-4387-8fe5-40407b7545ad")
+	)
+	(wire
+		(pts
+			(xy 203.2 138.43) (xy 203.2 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dc96b4-852f-4d4c-bf9f-bcc57a3e3ce9")
 	)
 	(wire
 		(pts
@@ -2977,7 +3013,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 157.48) (xy 241.3 157.48)
+			(xy 196.85 157.48) (xy 203.2 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3617,6 +3653,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 138.43) (xy 203.2 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8e3762c-e9b4-4c35-a915-968d4aaf2e01")
+	)
+	(wire
+		(pts
 			(xy 209.55 67.31) (xy 209.55 64.77)
 		)
 		(stroke
@@ -3624,6 +3670,16 @@
 			(type default)
 		)
 		(uuid "e9983d83-9bf5-4f43-990c-5a91a64be6a9")
+	)
+	(wire
+		(pts
+			(xy 203.2 157.48) (xy 241.3 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9a7707-181d-4efb-99be-5a520484c467")
 	)
 	(wire
 		(pts
@@ -4017,93 +4073,6 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/cebad8a2-135e-4833-960d-711ac7f70c94"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TPS62081DSGR:TPS62081DSGR")
-		(at 219.71 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1a5bec4f-8b26-4628-b8a6-9a8bde668a97")
-		(property "Reference" "U2"
-			(at 219.71 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62081DSGR"
-			(at 219.71 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS62081DSGR:SON50P200X200X80-9N"
-			(at 219.71 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a028fe3-14a6-4416-a82e-e4b9dfb79ae0")
-		)
-		(pin "4"
-			(uuid "e76d12a1-6e5a-4d49-a4b7-11d508610cb2")
-		)
-		(pin "7"
-			(uuid "ac14a1ae-3f94-4b74-8e4e-08ff5b809755")
-		)
-		(pin "5"
-			(uuid "33c39305-6e5a-4e3e-85f3-26ab067c7df0")
-		)
-		(pin "2"
-			(uuid "f06a7459-8f5c-4b23-98c1-d464f8d07b29")
-		)
-		(pin "8"
-			(uuid "bd26ff1b-068c-474c-a6f4-c32fcfc9eb18")
-		)
-		(pin "3"
-			(uuid "4d1788f3-07f3-4ccd-8471-7acc9afd28d0")
-		)
-		(pin "6"
-			(uuid "014ed783-48e3-42eb-b523-b72f3bed03df")
-		)
-		(instances
-			(project ""
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/cebad8a2-135e-4833-960d-711ac7f70c94"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4785,6 +4754,96 @@
 			(project ""
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/cebad8a2-135e-4833-960d-711ac7f70c94"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TPS62081DSGR:TPS62081DSGR")
+		(at 219.71 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60b86385-4c64-4660-9c6d-22a338e35c66")
+		(property "Reference" "U2"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62081DSGR"
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS62081DSGR:SON50P200X200X80-9N"
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "776d3017-c03c-44bd-ad15-7b8c5998b991")
+		)
+		(pin "9"
+			(uuid "4bcbd3e6-fb8b-488d-ba53-5efd08a8bc90")
+		)
+		(pin "5"
+			(uuid "976955d9-af21-4250-90f8-88cbc0157f47")
+		)
+		(pin "7"
+			(uuid "18635c0c-3089-4ff8-80a2-17ebbe66af5c")
+		)
+		(pin "6"
+			(uuid "9dad8620-8e0d-49d6-a9bc-f13aed773334")
+		)
+		(pin "1"
+			(uuid "99f541f0-6d58-4e53-8dd3-8dd94fd6d2ba")
+		)
+		(pin "4"
+			(uuid "2cd2e151-70ec-4641-a74e-2b16f1daa345")
+		)
+		(pin "3"
+			(uuid "3e816d4a-ec79-4dbe-ab98-8ba3ce0b2211")
+		)
+		(pin "2"
+			(uuid "f2946f66-d5e2-4bcc-aae5-f94809a05c66")
+		)
+		(instances
+			(project ""
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/cebad8a2-135e-4833-960d-711ac7f70c94"
+					(reference "U2")
 					(unit 1)
 				)
 			)

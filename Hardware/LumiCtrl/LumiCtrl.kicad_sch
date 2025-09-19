@@ -2028,16 +2028,16 @@
 		(uuid "51265fab-3633-41f6-95ad-3c0879b687c0")
 	)
 	(no_connect
+		(at 138.43 88.9)
+		(uuid "62f6bf3b-2980-40c4-927c-a74a4fd5737c")
+	)
+	(no_connect
 		(at 138.43 93.98)
 		(uuid "7052bc23-e801-49c9-8bb4-2d514da35648")
 	)
 	(no_connect
 		(at 138.43 96.52)
 		(uuid "950da009-3ad6-44ee-9fb9-b9bfedcd4e56")
-	)
-	(no_connect
-		(at 138.43 76.2)
-		(uuid "9cf24681-8088-4999-a14f-ca809d22fb9e")
 	)
 	(no_connect
 		(at 138.43 91.44)
@@ -2164,6 +2164,16 @@
 			(type default)
 		)
 		(uuid "2ba2e362-4d74-45ba-8d23-d64e094b7abd")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "329005a0-2215-44e7-9ade-e6d44bc37852")
 	)
 	(wire
 		(pts
@@ -2587,16 +2597,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 88.9) (xy 142.24 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dafef940-e6bf-4974-90a4-54dd3a072967")
-	)
-	(wire
-		(pts
 			(xy 57.15 40.64) (xy 57.15 48.26)
 		)
 		(stroke
@@ -2657,7 +2657,7 @@
 	)
 	(global_label "eFuse_FAULT"
 		(shape input)
-		(at 142.24 88.9 0)
+		(at 142.24 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2667,7 +2667,7 @@
 		)
 		(uuid "2b31cbe2-b68a-46b0-abaa-5aa146099754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.1391 88.9 0)
+			(at 157.1391 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
