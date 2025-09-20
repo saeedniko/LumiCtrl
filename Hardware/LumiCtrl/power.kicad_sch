@@ -5785,6 +5785,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "637-2N7002"
+			(at 184.15 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ee4b1bb6-3944-4bf0-8c5c-4c5d2c3c2aae")
 		)
@@ -5840,7 +5849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf"
 			(at 209.55 52.07 0)
 			(effects
 				(font
@@ -5850,6 +5859,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "81-GRM31CR71A226K15L"
 			(at 209.55 52.07 0)
 			(effects
 				(font
@@ -6116,7 +6134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 271.78 105.41 0)
 			(effects
 				(font
@@ -6126,6 +6144,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 271.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B4B-XH-AM"
 			(at 271.78 105.41 0)
 			(effects
 				(font
@@ -7083,7 +7110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 236.22 64.77 0)
 			(effects
 				(font
@@ -7103,6 +7130,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 236.22 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-150060VS75000"
+			(at 236.22 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +7467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://gct.co/files/specs/dcj200-10-spec.pdf"
 			(at 26.67 103.886 0)
 			(effects
 				(font
@@ -7441,6 +7477,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 25.4 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "640-DCJ200-10-A-K1-K"
 			(at 25.4 102.87 0)
 			(effects
 				(font
@@ -7705,7 +7750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74437358033.pdf"
 			(at 179.07 35.56 0)
 			(effects
 				(font
@@ -7716,6 +7761,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74437358033"
+			(at 179.07 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8241,7 +8295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS0840WS.pdf"
 			(at 58.42 35.56 0)
 			(effects
 				(font
@@ -8269,6 +8323,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 58.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "241-SS0840WSR100001"
 			(at 58.42 35.56 0)
 			(effects
 				(font
@@ -8679,7 +8742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/860020375019.pdf"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -8689,6 +8752,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 226.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-860020375019"
 			(at 226.06 106.68 0)
 			(effects
 				(font
@@ -8899,6 +8971,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "595-TPS26400PWPR"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "dc725979-a051-4c95-ae58-4f0de9831abb")
 		)
@@ -9075,6 +9156,15 @@
 			)
 		)
 		(property "Description" "2A Synchronous Step-Down Voltage Regulator 580kHz, adjustable output voltage, 4.5-17V Input Voltage, 0.804V-7V Output Voltage, SOT-563"
+			(at 149.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS562202DRLR"
 			(at 149.86 45.72 0)
 			(effects
 				(font
@@ -9832,7 +9922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/SS0840WS.pdf"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -9860,6 +9950,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "241-SS0840WSR100001"
 			(at 58.42 43.18 0)
 			(effects
 				(font

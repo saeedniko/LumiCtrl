@@ -3104,6 +3104,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ESP32-WROOM-32E"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "d9a3a32f-c9f2-4d99-ba9d-9b049fe68458")
 		)
@@ -3408,7 +3417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -3427,6 +3436,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 190.5 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-150060VS75000"
 			(at 190.5 101.6 0)
 			(effects
 				(font
@@ -3487,7 +3505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 			(at 52.07 74.93 0)
 			(effects
 				(font
@@ -3712,7 +3730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -3722,6 +3740,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "81-GRM31CR71A226K15L"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -3914,7 +3941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 203.2 99.06 0)
 			(effects
 				(font
@@ -3933,6 +3960,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-150060VS75000"
 			(at 203.2 99.06 0)
 			(effects
 				(font
@@ -4612,7 +4648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.ckswitches.com/media/1479/kmr2.pdf"
 			(at 229.87 74.93 0)
 			(effects
 				(font

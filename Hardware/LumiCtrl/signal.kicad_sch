@@ -4268,6 +4268,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "621-AP7384-50SA-7"
+			(at 209.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "43e3f18e-acd1-4921-97d2-0ac96abe4e3c")
 		)
@@ -4795,7 +4804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftps62080"
 			(at 219.71 127 0)
 			(effects
 				(font
@@ -4805,6 +4814,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS62081DSGR"
 			(at 219.71 127 0)
 			(effects
 				(font
@@ -5427,7 +5445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf"
 			(at 266.7 134.62 0)
 			(effects
 				(font
@@ -5437,6 +5455,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 266.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "81-GRM31CR71A226K15L"
 			(at 266.7 134.62 0)
 			(effects
 				(font
@@ -5633,7 +5660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/744311100.pdf"
 			(at 247.65 114.3 0)
 			(effects
 				(font
@@ -5644,6 +5671,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 247.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "744311100"
+			(at 247.65 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,6 +5749,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VL53L8CHV0GC/1"
 			(at 96.52 107.95 0)
 			(effects
 				(font
@@ -5818,7 +5863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR71A226KE15-01.pdf"
 			(at 227.33 53.34 0)
 			(effects
 				(font
@@ -5828,6 +5873,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "81-GRM31CR71A226K15L"
 			(at 227.33 53.34 0)
 			(effects
 				(font
@@ -5965,6 +6019,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 87.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "757-TC7SET126FULJCT"
 			(at 87.63 33.02 0)
 			(effects
 				(font

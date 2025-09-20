@@ -4781,7 +4781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://gct.co/files/specs/usb4105-spec.pdf"
 			(at 72.39 83.82 0)
 			(effects
 				(font
@@ -4791,6 +4791,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "USB4105-GF-A-120"
 			(at 72.39 83.82 0)
 			(effects
 				(font
@@ -4990,6 +4999,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "710-82400102"
+			(at 128.27 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1666421a-0519-4511-8511-24df25728039")
 		)
@@ -5117,7 +5135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0186/LTST-C190KFKT.PDF"
 			(at 232.41 104.14 0)
 			(effects
 				(font
@@ -5136,6 +5154,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "859-LTST-C190KFKT"
 			(at 232.41 104.14 0)
 			(effects
 				(font
@@ -5206,6 +5233,15 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-24"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "634-CP2102NA02GQFN24"
 			(at 203.2 88.9 0)
 			(effects
 				(font
@@ -5465,7 +5501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 247.65 88.9 0)
 			(effects
 				(font
@@ -5484,6 +5520,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 247.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-150060VS75000"
 			(at 247.65 88.9 0)
 			(effects
 				(font
@@ -5813,7 +5858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -5832,6 +5877,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-150060VS75000"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -5957,7 +6011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/742792641.pdf"
 			(at 134.62 78.74 0)
 			(effects
 				(font
@@ -5968,6 +6022,15 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-742792641"
+			(at 134.62 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
