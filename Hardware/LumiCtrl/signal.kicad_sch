@@ -4163,7 +4163,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n/10V"
+		(property "Value" "100n/50V"
 			(at 68.58 149.86 0)
 			(effects
 				(font
@@ -6210,7 +6210,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n/10V"
+		(property "Value" "100n/50V"
 			(at 28.702 101.854 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n/10V"
+		(property "Value" "100n/50V"
 			(at 54.61 149.606 0)
 			(effects
 				(font
