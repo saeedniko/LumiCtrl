@@ -9,7 +9,7 @@ const char* ssid = "Jen_kocholo";
 const char* password = "S@lma+S@eed@02.2023";
 
 /* ========= FASTLED ========= */
-#define NUM_LEDS 20
+#define NUM_LEDS 139
 #define DATA_ESP 12
 CRGB leds[NUM_LEDS];
 
