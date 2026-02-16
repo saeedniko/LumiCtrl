@@ -3528,6 +3528,12 @@
 		(uuid "e292f0d8-f143-4915-bf72-69cb2893fe01")
 	)
 	(junction
+		(at 49.53 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e776ccb5-85ca-40dd-b9eb-fd047959ddae")
+	)
+	(junction
 		(at 96.52 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3610,6 +3616,16 @@
 			(type default)
 		)
 		(uuid "023bb18a-264b-419d-9feb-b2a16d02a910")
+	)
+	(wire
+		(pts
+			(xy 88.9 25.4) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03911133-c4fa-493e-8e14-91936a7dcffd")
 	)
 	(wire
 		(pts
@@ -4213,6 +4229,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 25.4) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8ea0bc-9402-40de-aa93-3242d1a9ead9")
+	)
+	(wire
+		(pts
 			(xy 43.18 119.38) (xy 43.18 121.92)
 		)
 		(stroke
@@ -4423,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 26.67) (xy 49.53 35.56)
+			(xy 49.53 21.59) (xy 49.53 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4580,6 +4606,16 @@
 			(type default)
 		)
 		(uuid "8271abd6-7877-4ef2-8cff-0afd8acb01a0")
+	)
+	(wire
+		(pts
+			(xy 49.53 25.4) (xy 58.42 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "831e3bfb-d01d-4997-b24f-7bdbf8549acf")
 	)
 	(wire
 		(pts
@@ -4810,6 +4846,16 @@
 			(type default)
 		)
 		(uuid "a0a4bf2c-9917-4d00-b5c7-86549a392886")
+	)
+	(wire
+		(pts
+			(xy 81.28 25.4) (xy 88.9 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48b685e-bab2-4d0b-8a86-2c439e62986f")
 	)
 	(wire
 		(pts
@@ -5400,6 +5446,16 @@
 			(type default)
 		)
 		(uuid "fafcecd9-2155-4137-a32d-7bb1daa87c18")
+	)
+	(wire
+		(pts
+			(xy 73.66 25.4) (xy 66.04 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc07334e-1ef5-4ac0-b10f-7b0ba62bb68c")
 	)
 	(wire
 		(pts
@@ -6319,6 +6375,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 77.47 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "335d45b1-3247-4e77-aefb-089aad198ee0")
+		(property "Reference" "D4"
+			(at 77.216 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_green_12V"
+			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060VS75000.pdf"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "710-150060VS75000"
+			(at 77.47 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39209e86-aa51-4519-9f72-57f27e1c027c")
+		)
+		(pin "1"
+			(uuid "8682285f-a2a9-484a-9f55-c27a8043fa42")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 96.52 58.42 0)
 		(unit 1)
@@ -7009,7 +7150,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 49.53 26.67 0)
+		(at 49.53 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7018,7 +7159,7 @@
 		(fields_autoplaced yes)
 		(uuid "59e15463-c210-4631-923a-f2ddd63eaaf9")
 		(property "Reference" "#PWR017"
-			(at 49.53 30.48 0)
+			(at 49.53 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,7 +7168,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 49.53 21.59 0)
+			(at 49.53 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 26.67 0)
+			(at 49.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 26.67 0)
+			(at 49.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7053,7 +7194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 49.53 26.67 0)
+			(at 49.53 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7233,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_green"
+		(property "Value" "LED_green_3V3"
 			(at 240.03 67.6274 90)
 			(effects
 				(font
@@ -8130,6 +8271,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 62.23 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7868f2d1-dbb6-4aa9-8e8a-58da7f28f61c")
+		(property "Reference" "R16"
+			(at 64.77 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K"
+			(at 59.436 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 62.23 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a8b3b04-bd8b-4ba8-abf6-547c6275e531")
+		)
+		(pin "1"
+			(uuid "f59d1123-fa64-40e0-b30c-dca465702655")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 113.03 0)
 		(unit 1)
@@ -8350,6 +8558,72 @@
 			(project ""
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc8bf01-b46c-44eb-9bee-ba69d266a86c")
+		(property "Reference" "#PWR012"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c5df1b-d4ac-4bee-a075-c7a0b4b0a2b3")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
