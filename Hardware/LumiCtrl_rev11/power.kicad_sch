@@ -3384,6 +3384,12 @@
 		(uuid "86df35cc-3784-4c7a-bcd7-59e5bd1aa29d")
 	)
 	(junction
+		(at 162.56 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9422678f-1351-469f-8811-7c8a9658bc8d")
+	)
+	(junction
 		(at 186.69 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3454,12 +3460,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd54b02c-7530-49e2-b57f-4a885e5156ec")
-	)
-	(junction
-		(at 96.52 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d14a4b2b-319f-4148-8607-662216f3aea8")
 	)
 	(junction
 		(at 241.3 100.33)
@@ -3534,12 +3534,6 @@
 		(uuid "e776ccb5-85ca-40dd-b9eb-fd047959ddae")
 	)
 	(junction
-		(at 96.52 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea3bbcdb-5801-4083-972a-b5a6bf844b47")
-	)
-	(junction
 		(at 82.55 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3586,16 +3580,6 @@
 			(type default)
 		)
 		(uuid "00401599-3881-42df-9990-0276f66e6f91")
-	)
-	(wire
-		(pts
-			(xy 83.82 43.18) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0060fb81-4310-4b7d-8717-661fa7a3b9ce")
 	)
 	(wire
 		(pts
@@ -3696,16 +3680,6 @@
 			(type default)
 		)
 		(uuid "0cad6e9b-5936-4c3d-a64a-86d912cba117")
-	)
-	(wire
-		(pts
-			(xy 96.52 54.61) (xy 96.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd64013-fd8d-4578-8636-c569443a905a")
 	)
 	(wire
 		(pts
@@ -4279,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 33.02) (xy 162.56 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560413e3-d6b0-4666-9d67-32b386911816")
+	)
+	(wire
+		(pts
 			(xy 33.02 105.41) (xy 33.02 119.38)
 		)
 		(stroke
@@ -4519,16 +4503,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 62.23) (xy 96.52 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78515d65-bfb3-4675-b5a9-a1c8ae9e2653")
-	)
-	(wire
-		(pts
 			(xy 43.18 114.3) (xy 43.18 119.38)
 		)
 		(stroke
@@ -4579,16 +4553,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 73.66) (xy 109.22 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82278ddd-94cc-4bc1-ae78-c9adc42ce15d")
-	)
-	(wire
-		(pts
 			(xy 199.39 100.33) (xy 212.09 100.33)
 		)
 		(stroke
@@ -4599,7 +4563,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 43.18) (xy 109.22 43.18)
+			(xy 83.82 43.18) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4709,7 +4673,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 96.52 73.66)
+			(xy 83.82 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5609,6 +5573,28 @@
 			)
 		)
 	)
+	(global_label "U5_SW"
+		(shape input)
+		(at 162.56 33.02 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b4796fd-e200-4797-846b-c2c161e2081b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 23.8663 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+12V_IN"
 		(shape input)
 		(at 72.39 96.52 90)
@@ -6454,76 +6440,6 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 96.52 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "359dac73-7777-429f-8e88-d4a4b3b4f5f4")
-		(property "Reference" "C17"
-			(at 100.33 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u/25V"
-			(at 100.33 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 97.4852 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7460d561-1d63-458c-8833-fe9b148c86cb")
-		)
-		(pin "1"
-			(uuid "8d1557ff-43db-4a55-a154-67b84c156199")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/dacb9cc2-1c91-49d6-ab3f-cc4fb4fdfd57"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -7874,7 +7790,7 @@
 				)
 			)
 		)
-		(property "Value" "4u7"
+		(property "Value" "2u2"
 			(at 179.07 33.02 90)
 			(effects
 				(font
@@ -7882,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Footprint" "74437358033:WE-LHMI_8040_PW5"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-24xx_HandSoldering"
 			(at 179.07 35.56 0)
 			(effects
 				(font
@@ -7891,7 +7807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/74437358033.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/396/wound04_e-1290968.pdf"
 			(at 179.07 35.56 0)
 			(effects
 				(font
@@ -7909,7 +7825,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "74437358033"
+		(property "MPN" "963-NRH2410T2R2MN"
 			(at 179.07 35.56 90)
 			(effects
 				(font

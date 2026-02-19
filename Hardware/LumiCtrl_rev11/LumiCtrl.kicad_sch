@@ -2188,12 +2188,6 @@
 		)
 	)
 	(junction
-		(at 104.14 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "212b7805-73de-4127-9b29-a11de7f8560f")
-	)
-	(junction
 		(at 208.28 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2264,12 +2258,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6f7dade-1e47-4297-bd0f-3898c9c54f7f")
-	)
-	(junction
-		(at 104.14 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edad28ed-a968-4c0d-9031-6d385bf764d9")
 	)
 	(junction
 		(at 104.14 93.98)
@@ -2345,6 +2333,26 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 78.74) (xy 147.32 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11903448-1b4f-421f-9f30-50bb66745b21")
+	)
+	(wire
+		(pts
+			(xy 154.94 73.66) (xy 165.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e2bb7b8-4511-4e03-9dc8-600950050c1b")
+	)
+	(wire
+		(pts
 			(xy 139.7 96.52) (xy 167.64 96.52)
 		)
 		(stroke
@@ -2365,13 +2373,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.1105 76.2) (xy 139.7 76.2)
+			(xy 139.7 73.66) (xy 147.32 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "257bba5e-70bd-4507-9e44-e73b2fe87395")
+		(uuid "25326427-6220-48ab-9d14-7656d50d2f5d")
 	)
 	(wire
 		(pts
@@ -2382,16 +2390,6 @@
 			(type default)
 		)
 		(uuid "267472b3-1f28-44f5-ad7d-f98d3af47a46")
-	)
-	(wire
-		(pts
-			(xy 154.6281 81.28) (xy 163.83 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2867ee8b-36ae-42b7-a083-4a33beb66ccd")
 	)
 	(wire
 		(pts
@@ -2435,6 +2433,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 81.28) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3298999d-f956-4020-a0f2-2106c5bdddb4")
+	)
+	(wire
+		(pts
 			(xy 101.6 73.66) (xy 109.22 73.66)
 		)
 		(stroke
@@ -2465,16 +2473,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 147.0081 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cf6c4d2-983c-4b49-8004-776f5bdc1fd0")
-	)
-	(wire
-		(pts
 			(xy 109.22 81.28) (xy 101.6 81.28)
 		)
 		(stroke
@@ -2482,16 +2480,6 @@
 			(type default)
 		)
 		(uuid "42837775-e7aa-4a0f-941e-47f3e9ac84fd")
-	)
-	(wire
-		(pts
-			(xy 147.1105 73.66) (xy 139.7 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4944bb3c-202e-4ce1-b7e1-b0ad70b58e04")
 	)
 	(wire
 		(pts
@@ -2521,7 +2509,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4bdef391-3ba4-42f1-a9ca-6cb1d76fd294")
+		(uuid "4de9e200-ed52-4980-afde-3236974fc15b")
 	)
 	(wire
 		(pts
@@ -2555,6 +2543,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57894d70-42f7-4a37-b84a-3b3a59b6442d")
+	)
+	(wire
+		(pts
 			(xy 104.14 93.98) (xy 104.14 99.06)
 		)
 		(stroke
@@ -2575,16 +2573,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 81.28) (xy 147.0081 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fd5cad7-5396-493f-973b-43eacc89cb1d")
-	)
-	(wire
-		(pts
 			(xy 105.41 31.75) (xy 124.46 31.75)
 		)
 		(stroke
@@ -2602,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "659d0c4b-e0c2-440b-9555-621659a807ee")
+	)
+	(wire
+		(pts
+			(xy 154.94 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c3749d-6f30-4cc5-80c4-7e9626b5e840")
 	)
 	(wire
 		(pts
@@ -2815,16 +2813,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 76.2) (xy 154.7305 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4f0b8e4-7310-4351-8116-54a4785fa5f4")
-	)
-	(wire
-		(pts
 			(xy 72.39 114.3) (xy 74.93 114.3)
 		)
 		(stroke
@@ -2852,16 +2840,6 @@
 			(type default)
 		)
 		(uuid "b59b52bd-f2f7-4f4f-9b7d-0c264b6f451c")
-	)
-	(wire
-		(pts
-			(xy 165.1 73.66) (xy 154.7305 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e63d27-f716-4663-bcaa-a51add466de5")
 	)
 	(wire
 		(pts
@@ -2905,13 +2883,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 104.14 106.68)
+			(xy 139.7 76.2) (xy 147.32 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca1649c5-5f06-473a-a87e-fb7a46d87279")
+		(uuid "c3f040cd-b869-410f-95d4-63c7f1334f74")
 	)
 	(wire
 		(pts
@@ -2932,16 +2910,6 @@
 			(type default)
 		)
 		(uuid "cb7720e4-6135-4211-952c-8ce25e1b626e")
-	)
-	(wire
-		(pts
-			(xy 154.6281 78.74) (xy 163.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec8c4dd-a457-4d47-ab3a-006e935f2689")
 	)
 	(wire
 		(pts
@@ -2992,6 +2960,16 @@
 			(type default)
 		)
 		(uuid "dab74f71-f92f-4fbf-9954-084cfd519d1a")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 163.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd808e7-5820-480a-886d-eb91449b76be")
 	)
 	(wire
 		(pts
@@ -3338,6 +3316,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 97.79 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04cc04b4-54ba-494b-a68c-b88a8d6a6c6a")
+		(property "Reference" "R44"
+			(at 103.124 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 93.726 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 77.978 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7ef70ef-2d93-460a-a82f-4e1901f55ffe")
+		)
+		(pin "2"
+			(uuid "5bc6cb61-05ca-4a55-89ac-57cd88cc50b2")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 252.73 153.67 0)
 		(unit 1)
@@ -3462,73 +3507,6 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e5ba02d-b389-442c-a81c-434efdd442ef")
-		(property "Reference" "R41"
-			(at 103.124 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 93.726 72.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 75.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b43354c-fd38-4707-9695-c8c68211eb86")
-		)
-		(pin "2"
-			(uuid "d39cd8c4-c39e-49af-be68-46fb73a6e080")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -3677,6 +3655,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 151.13 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "219dfe47-51fd-4894-9919-389214344224")
+		(property "Reference" "R47"
+			(at 156.464 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 147.066 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb9f5d6-0ce4-467f-8418-c674196b001a")
+		)
+		(pin "2"
+			(uuid "eeedaae0-9d4f-44e1-b0ea-430d6ee66cb5")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 186.69 99.06 180)
 		(unit 1)
@@ -3764,15 +3809,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 71.12 90)
+		(at 151.13 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "29bbccd7-fafc-4a9e-a9aa-8f1ef2c2bea5")
-		(property "Reference" "R55"
-			(at 103.124 70.358 90)
+		(uuid "24fe31aa-88ef-4c64-9b6a-3bd06af88127")
+		(property "Reference" "R48"
+			(at 156.464 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,15 +3825,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 93.726 70.358 90)
+			(at 147.066 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 72.898 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 93.218 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 71.12 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +3851,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 71.12 0)
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3815,15 +3860,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "c62b5bfb-90e9-4925-94ca-663ecafdacc8")
+			(uuid "ff7c8a50-b93a-4a3f-a6ff-3c4d4c564e18")
 		)
 		(pin "2"
-			(uuid "43ebce07-e838-44e7-8455-9f911b6bab1d")
+			(uuid "fac9ebe5-c490-4307-b519-06a4a2e4de59")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R55")
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27faa753-8079-448b-af2a-8efdf552a4bf")
+		(property "Reference" "R17"
+			(at 156.464 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 147.066 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cc38c85-1ee6-4676-a61c-34d91e52a482")
+		)
+		(pin "2"
+			(uuid "b9cddc8d-6d9c-4195-97e8-7b2361fb43eb")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3936,7 +4048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ESP32-C6-MINI-1"
+		(property "Value" "ESP32-C6-MINI-1-N4"
 			(at 126.6033 60.96 0)
 			(effects
 				(font
@@ -3965,6 +4077,15 @@
 		)
 		(property "Description" "RF Module, ESP32-C6 SoC, Wi-Fi 802.11b/g/n/ax, Bluetooth, BLE, Zigbee, Thread, 32-bit, 3.3V, SMD, onboard antenna"
 			(at 124.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C5736265"
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4142,15 +4263,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 83.82 270)
+		(at 97.79 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3e1cd98c-b820-4df2-9528-62fdeecc988e")
-		(property "Reference" "R49"
-			(at 93.218 83.058 90)
+		(uuid "39af6e9f-0bc4-4f48-85a8-a47e31d8ad74")
+		(property "Reference" "R52"
+			(at 103.124 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,15 +4279,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 101.854 83.058 90)
+			(at 93.726 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 82.042 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 90.678 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,7 +4296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 83.82 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4305,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 97.79 83.82 0)
+			(at 97.79 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4193,15 +4314,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a37514e-aa4f-4e7d-aa5d-076f87e2bfd0")
+			(uuid "cbbe77c0-48c0-4464-b4fb-662708ed6a0e")
 		)
 		(pin "2"
-			(uuid "4f448bf6-b670-4af1-aac1-eda800798bf2")
+			(uuid "fdb66524-afae-4f1d-baf8-26ec6c11a8ee")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R49")
+					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -4276,15 +4397,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 150.9205 73.66 90)
+		(at 97.79 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "557dfca6-4dd3-490d-aa88-6a93c91c0cb6")
-		(property "Reference" "R10"
-			(at 156.2545 72.898 90)
+		(uuid "4587d196-3bea-4e2a-8f3a-d24c0a140bbe")
+		(property "Reference" "R51"
+			(at 103.124 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,15 +4413,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 146.8565 72.898 90)
+			(at 93.726 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 150.9205 75.438 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.9205 73.66 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4439,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 150.9205 73.66 0)
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,15 +4448,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed295870-74de-49fd-9011-a023cf37edf1")
+			(uuid "e0fb9384-6e3b-4d25-b691-0f6d4732c2b8")
 		)
 		(pin "2"
-			(uuid "3135cf88-3773-4dc1-9d0c-a924a6d25e47")
+			(uuid "295db45e-020f-4902-9e1d-8a637b9028dc")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R10")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -4406,73 +4527,6 @@
 			(project ""
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c3cb13b-2ee8-4213-a6ea-740a06b6a4b3")
-		(property "Reference" "R52"
-			(at 93.218 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 101.854 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 84.582 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1211992e-5095-4d09-8238-75199beb2db2")
-		)
-		(pin "2"
-			(uuid "dc266f33-6667-4ed8-9a14-dcf41b31b653")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R52")
 					(unit 1)
 				)
 			)
@@ -4558,140 +4612,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c8f3b44-a3c2-4a72-a461-2745f775fffb")
-		(property "Reference" "R51"
-			(at 93.218 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 101.854 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 87.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fc07d89-41d0-4587-8d1c-e120d721d276")
-		)
-		(pin "2"
-			(uuid "8dadfc2c-2fd8-4178-ae22-e21d9e8b58d3")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 81.28 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "64eaca83-8612-447b-8763-f689c6ab9c01")
-		(property "Reference" "R50"
-			(at 93.218 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 101.854 80.518 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "316efd9d-6f93-4889-8521-eed827e7760d")
-		)
-		(pin "2"
-			(uuid "233a3e31-c6fc-45e0-ba93-16b719964304")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 105.41 38.1 0)
 		(unit 1)
@@ -4756,6 +4676,73 @@
 			(project ""
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ef76365-dbbc-481d-ad64-1f72b1d284cc")
+		(property "Reference" "R49"
+			(at 103.124 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 93.726 80.518 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef93248-f120-43b5-af2b-4105ca5ecb14")
+		)
+		(pin "2"
+			(uuid "d804aee9-ed87-4b08-8441-2d783c10c92b")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5057,73 +5044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f05eaf3-ea00-4ec3-9557-38fa45ccdcd5")
-		(property "Reference" "R44"
-			(at 103.124 75.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 93.726 75.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 77.978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f167d01-ceaa-43e5-b5c1-ff01284c40a0")
-		)
-		(pin "2"
-			(uuid "73329089-2e23-4a1b-8114-816fd388580d")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 88.9 102.87 0)
 		(unit 1)
@@ -5183,73 +5103,6 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "981b4c53-2bf4-42ac-8ea2-ee5e724ce5cf")
-		(property "Reference" "R48"
-			(at 156.464 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 147.066 90.678 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 151.13 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b8de1a4-d82c-4548-ae65-5d1508ed12e1")
-		)
-		(pin "2"
-			(uuid "b4a48aca-6257-457f-8247-1b22895fe871")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -5383,6 +5236,73 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e20bbc4-cb49-4140-9ef4-a4cd05b63a34")
+		(property "Reference" "R43"
+			(at 103.124 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 93.726 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a99b589-cc72-4837-bfcf-35eee3b22309")
+		)
+		(pin "2"
+			(uuid "b5e4d196-9af1-4d5a-b183-4499e81ea487")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -5662,15 +5582,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 150.8181 78.74 90)
+		(at 151.13 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d59937e8-737e-4ed6-9099-dc25685b782e")
-		(property "Reference" "R45"
-			(at 156.1521 77.978 90)
+		(uuid "d30d851e-1a7c-4dc1-8fd2-59473448c87a")
+		(property "Reference" "R46"
+			(at 156.464 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,15 +5598,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 146.7541 77.978 90)
+			(at 147.066 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 150.8181 80.518 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 83.058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5615,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.8181 78.74 0)
+			(at 151.13 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5624,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 150.8181 78.74 0)
+			(at 151.13 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5713,15 +5633,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9272c182-a858-4be0-b4ad-a48d83ca4864")
+			(uuid "18e16b94-cf70-4328-bc62-cdfb61572ffc")
 		)
 		(pin "2"
-			(uuid "0240b777-8068-4a44-85e1-9daa7d27b67c")
+			(uuid "d14d4aa0-9b6a-43cb-88c1-f5806f94c4ce")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R45")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5729,15 +5649,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 86.36 90)
+		(at 97.79 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da71ff23-4171-47ae-8c08-9e552910b791")
-		(property "Reference" "R47"
-			(at 156.464 85.598 90)
+		(uuid "d8f95991-50aa-44be-8e42-e3864a55879a")
+		(property "Reference" "R41"
+			(at 103.124 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,15 +5665,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 147.066 85.598 90)
+			(at 93.726 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 151.13 88.138 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5762,7 +5682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 86.36 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5771,7 +5691,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 151.13 86.36 0)
+			(at 97.79 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5780,15 +5700,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2deac6e7-51d2-4721-9a9e-ccdc479eaeeb")
+			(uuid "254209b6-5f78-45ca-83da-77cbf660fc96")
 		)
 		(pin "2"
-			(uuid "a4c439eb-7736-45e4-81be-f0b1f869359d")
+			(uuid "1dd72d4a-3955-477c-baa9-ec4bfdd8e9f5")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R47")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5862,15 +5782,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 150.9205 76.2 90)
+		(at 151.13 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ea21f280-ce14-40ef-b66a-54f9f7ac9e23")
-		(property "Reference" "R17"
-			(at 156.2545 75.438 90)
+		(uuid "db8a2824-f1c5-4fd0-83a5-f8b66f397e8f")
+		(property "Reference" "R10"
+			(at 156.464 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5878,15 +5798,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 146.8565 75.438 90)
+			(at 147.066 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 150.9205 77.978 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5895,7 +5815,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.9205 76.2 0)
+			(at 151.13 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +5824,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 150.9205 76.2 0)
+			(at 151.13 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5913,15 +5833,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1c492de-e307-4fe1-a7cd-8381b254015a")
+			(uuid "531ba6f9-6856-4ed3-92dc-e3f498015410")
 		)
 		(pin "2"
-			(uuid "845e1412-e4ae-402b-b90f-a58dca5449be")
+			(uuid "6fecd6c9-9306-4ca6-a8fd-3e72fff921c1")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R17")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 97.79 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfac5585-f39e-403c-b272-3ac7c88bcc3a")
+		(property "Reference" "R50"
+			(at 103.124 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 93.726 83.058 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 85.598 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6e96696-3808-42df-8a3e-4111241bcb28")
+		)
+		(pin "2"
+			(uuid "d1b8ff3b-021f-4033-a686-53fc93a43926")
+		)
+		(instances
+			(project "LumiCtrl"
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -6082,15 +6069,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 150.8181 81.28 90)
+		(at 151.13 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f96c60cd-5fd2-4991-ab61-0a45334bd4b7")
-		(property "Reference" "R46"
-			(at 156.1521 80.518 90)
+		(uuid "f35c6254-2be5-4fa9-8325-c647051a3e04")
+		(property "Reference" "R45"
+			(at 156.464 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,15 +6085,15 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 146.7541 80.518 90)
+			(at 147.066 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 150.8181 83.058 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 151.13 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,7 +6102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 150.8181 81.28 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6124,7 +6111,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 150.8181 81.28 0)
+			(at 151.13 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6133,15 +6120,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d844b1c1-19a7-435b-9941-dd0095ff0c63")
+			(uuid "388fc6f4-f88d-4caf-8caa-6371a3094a7c")
 		)
 		(pin "2"
-			(uuid "bd45db84-8789-46d0-8c52-c4733eef8023")
+			(uuid "25d7c6af-c29e-4408-96e9-cb79d89f1701")
 		)
 		(instances
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "R46")
+					(reference "R45")
 					(unit 1)
 				)
 			)

@@ -1588,6 +1588,219 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Audio:ICS-43434"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MK"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "ICS-43434"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sensor_Audio:InvenSense_ICS-43434-6_3.5x2.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.invensense.com/wp-content/uploads/2016/02/DS-000069-ICS-43434-v1.2.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TDK InvenSense MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "microphone MEMS 24bit I2S ICS-43434 TDK InvenSense"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "InvenSense*ICS*43434*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ICS-43434_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy -5.08 -1.27)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "LR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "WS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1787,12 +2000,6 @@
 		(uuid "e0de45b7-00d4-419a-889f-3c65331bd7c3")
 	)
 	(junction
-		(at 128.27 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8a26ab0-38c1-435d-aeed-873a4d27a9b0")
-	)
-	(junction
 		(at 180.34 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1881,16 +2088,6 @@
 			(type default)
 		)
 		(uuid "1188f20c-9b13-4ddd-b53d-015ead961565")
-	)
-	(wire
-		(pts
-			(xy 128.27 83.82) (xy 128.27 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12ed4f4f-9ba4-4212-bc69-06ee8b9d68bb")
 	)
 	(wire
 		(pts
@@ -2034,6 +2231,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bba73d7-3e0a-45a9-9951-77ee9a23ad88")
+	)
+	(wire
+		(pts
 			(xy 54.61 96.52) (xy 57.15 96.52)
 		)
 		(stroke
@@ -2071,16 +2278,6 @@
 			(type default)
 		)
 		(uuid "5745ff7d-30f2-44c3-a488-8f3cc3e2923c")
-	)
-	(wire
-		(pts
-			(xy 177.8 86.36) (xy 189.23 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579bb121-cb14-4214-9b2a-d5f9b598316e")
 	)
 	(wire
 		(pts
@@ -2171,16 +2368,6 @@
 			(type default)
 		)
 		(uuid "860830ea-f55c-42ae-9702-2c1ec4e0e6a7")
-	)
-	(wire
-		(pts
-			(xy 128.27 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "862db73a-6fcc-463b-87fc-c99b84b7cc6c")
 	)
 	(wire
 		(pts
@@ -2294,16 +2481,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 83.82) (xy 189.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab3e95df-e3be-4f8f-a124-f890a4e800f2")
-	)
-	(wire
-		(pts
 			(xy 50.8 78.74) (xy 50.8 64.77)
 		)
 		(stroke
@@ -2354,16 +2531,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 78.74) (xy 128.27 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3b0e003-a753-4d2f-bd44-46df604a9b57")
-	)
-	(wire
-		(pts
 			(xy 125.73 114.3) (xy 125.73 116.84)
 		)
 		(stroke
@@ -2384,7 +2551,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 83.82) (xy 128.27 83.82)
+			(xy 125.73 83.82) (xy 189.23 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2494,7 +2661,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 191.77 78.74)
+			(xy 180.34 78.74) (xy 208.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2504,7 +2671,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 170.18 86.36)
+			(xy 130.81 86.36) (xy 189.23 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2524,7 +2691,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 128.27 83.82)
+			(xy 128.27 78.74) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2578,7 +2745,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 191.77 78.74 0)
+		(at 208.28 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2588,7 +2755,7 @@
 		)
 		(uuid "d7dd6101-2cc1-45d0-a05a-b6d8eb1db2f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.6538 78.74 0)
+			(at 216.1638 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,41 +3442,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 173.99 86.36 90)
+		(lib_id "Sensor_Audio:ICS-43434")
+		(at 231.14 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b8af0e86-4c1c-4f94-abed-ab7c4614d416")
-		(property "Reference" "R14"
-			(at 171.704 88.9 90)
+		(fields_autoplaced yes)
+		(uuid "cda38a4f-627c-4d62-a1d3-7388dc21107d")
+		(property "Reference" "MK1"
+			(at 233.2833 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 177.038 88.646 90)
+		(property "Value" "ICS-43434"
+			(at 233.2833 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.99 88.138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 86.36 0)
+		(property "Footprint" "Sensor_Audio:InvenSense_ICS-43434-6_3.5x2.65mm"
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,8 +3478,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 173.99 86.36 0)
+		(property "Datasheet" "https://www.invensense.com/wp-content/uploads/2016/02/DS-000069-ICS-43434-v1.2.pdf"
+			(at 231.14 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TDK InvenSense MEMS Microphone, 24-bit I2S, 65 dBA SNR, LGA-6"
+			(at 231.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,82 +3497,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "52475d56-50d6-4bab-a168-145a3e066784")
+			(uuid "df17735d-d4d7-4601-b985-5ffb1817a66a")
+		)
+		(pin "3"
+			(uuid "de3e2ed4-29a4-42b9-889f-714b27e78475")
+		)
+		(pin "4"
+			(uuid "b083a24a-a88c-4664-9e17-5ca64e97c56c")
 		)
 		(pin "1"
-			(uuid "c1f97c4a-1f0e-450e-8c12-0f6f2d806097")
+			(uuid "b46f49bb-08d9-49b1-bee9-8c1797c3556b")
+		)
+		(pin "6"
+			(uuid "578b293d-3f5c-4791-9153-487193b9ca17")
+		)
+		(pin "5"
+			(uuid "c12f53e6-68b2-4dd0-bd9f-1b791e20bdda")
 		)
 		(instances
-			(project "LumiCtrl"
+			(project ""
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/553f4064-1b58-4537-a39d-77654c96e0b7"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 173.99 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4cc541a-ebba-4dfa-8a21-7adfc84aa9ee")
-		(property "Reference" "R13"
-			(at 171.45 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 176.784 81.788 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 173.99 85.598 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 173.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 173.99 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "60fd8889-19b0-4c4e-a768-b2f085498fd2")
-		)
-		(pin "1"
-			(uuid "ea1fcd67-9f2d-4e79-a18f-ddecbff1d350")
-		)
-		(instances
-			(project "LumiCtrl"
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874/553f4064-1b58-4537-a39d-77654c96e0b7"
-					(reference "R13")
+					(reference "MK1")
 					(unit 1)
 				)
 			)
