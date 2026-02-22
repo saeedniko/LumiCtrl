@@ -9,6 +9,101 @@
 		(rev "2.0")
 	)
 	(lib_symbols
+		(symbol "1_my_custom_symbol_library:LumiCtrl_logo"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LumiCtrl_logo_0_1"
+				(rectangle
+					(start -2.54 2.54)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 2.54)
+					(end -2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 2.54)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -3099,7 +3194,7 @@
 		)
 		(uuid "fbaf5534-a4d1-41aa-959f-d570f93821b2")
 	)
-	(global_label "TOF_SD"
+	(global_label "MIC_SD"
 		(shape input)
 		(at 87.63 73.66 180)
 		(fields_autoplaced yes)
@@ -3111,7 +3206,7 @@
 		)
 		(uuid "10bd6d62-9b01-4882-b17c-321a490cd87c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.811 73.66 0)
+			(at 77.8715 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3392,7 @@
 			)
 		)
 	)
-	(global_label "TOF_WS"
+	(global_label "MIC_WS"
 		(shape input)
 		(at 87.63 71.12 180)
 		(fields_autoplaced yes)
@@ -3309,7 +3404,7 @@
 		)
 		(uuid "af0228f5-08e7-4698-a8a0-121c19ae8ce2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.6296 71.12 0)
+			(at 77.6901 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3480,7 @@
 			)
 		)
 	)
-	(global_label "TOF_SCK"
+	(global_label "MIC_SCK"
 		(shape input)
 		(at 87.63 76.2 180)
 		(fields_autoplaced yes)
@@ -3397,7 +3492,7 @@
 		)
 		(uuid "ee7c83a1-512b-45e5-a453-75df26819e40")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.541 76.2 0)
+			(at 76.6015 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,6 +4150,70 @@
 		)
 	)
 	(symbol
+		(lib_id "1_my_custom_symbol_library:LumiCtrl_logo")
+		(at 154.94 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d4afff8-3996-49dc-af76-d16575ea7433")
+		(property "Reference" "U11"
+			(at 158.75 174.6249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 158.75 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LumiCtrl_logo:LumiCtrl_logo"
+			(at 154.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 57.15 74.93 90)
 		(unit 1)
@@ -4197,7 +4356,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C5736265"
+		(property "LCSC" "C5736265"
 			(at 124.46 86.36 0)
 			(effects
 				(font
