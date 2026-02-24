@@ -9,101 +9,6 @@
 		(rev "2.0")
 	)
 	(lib_symbols
-		(symbol "1_my_custom_symbol_library:LumiCtrl_logo"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LumiCtrl_logo_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end -2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.54 -2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 2.54)
-					(end -2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 2.54)
-					(end 2.54 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -3576,6 +3481,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 97.79 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7ef70ef-2d93-460a-a82f-4e1901f55ffe")
 		)
@@ -3638,6 +3552,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 252.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 252.73 153.67 0)
 			(effects
 				(font
@@ -3848,6 +3771,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 185.42 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d73a9cb-ae14-490d-8199-5ab0def163dd")
 		)
@@ -3908,6 +3840,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 151.13 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,6 +3941,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 193.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc73186a-ba0d-41e4-8395-cc19702b57de")
 		)
@@ -4060,6 +4010,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 151.13 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,6 +4093,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 151.13 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cc38c85-1ee6-4676-a61c-34d91e52a482")
 		)
@@ -4144,70 +4112,6 @@
 			(project "LumiCtrl"
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1_my_custom_symbol_library:LumiCtrl_logo")
-		(at 154.94 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d4afff8-3996-49dc-af76-d16575ea7433")
-		(property "Reference" "U11"
-			(at 158.75 174.6249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 158.75 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LumiCtrl_logo:LumiCtrl_logo"
-			(at 154.94 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
-					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4286,6 +4190,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 57.15 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb5c915a-8582-44b4-a6ac-f9147ef2348c")
 		)
@@ -4357,6 +4270,15 @@
 			)
 		)
 		(property "LCSC" "C5736265"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -4585,6 +4507,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 97.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbbe77c0-48c0-4464-b4fb-662708ed6a0e")
 		)
@@ -4644,6 +4575,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -4719,6 +4659,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 97.79 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0fb9384-6e3b-4d25-b691-0f6d4732c2b8")
 		)
@@ -4781,6 +4730,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -4868,6 +4826,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5b26abc-34d9-4bd1-b411-55ebc17320b3")
 		)
@@ -4938,6 +4905,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 105.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0d318407-b163-430c-8487-2b6cb4535c77")
 		)
@@ -4998,6 +4974,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 97.79 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,6 +5060,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 252.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/6611cd9e-ac53-4d6c-b648-e5340370e874"
@@ -5129,6 +5123,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 151.13 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,6 +5225,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65a69dea-fb99-4dcb-8056-76e27ffbc1f4")
 		)
@@ -5284,6 +5296,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 80.01 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 80.01 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,6 +5388,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd4b0ccc-8b1a-4a71-b4a2-c271c0543111")
 		)
@@ -5427,6 +5457,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 151.13 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,6 +5738,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 97.79 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a99b589-cc72-4837-bfcf-35eee3b22309")
 		)
@@ -5760,6 +5808,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 48.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 48.26 74.93 0)
 			(effects
 				(font
@@ -5835,6 +5892,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 66.04 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e20bfaba-3b2a-45fd-9267-5813c3c9f128")
 		)
@@ -5895,6 +5961,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 97.79 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5964,6 +6039,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 88.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 88.9 109.22 0)
 			(effects
 				(font
@@ -6105,6 +6189,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 151.13 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18e16b94-cf70-4328-bc62-cdfb61572ffc")
 		)
@@ -6165,6 +6258,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 97.79 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,6 +6407,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 151.13 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "531ba6f9-6856-4ed3-92dc-e3f498015410")
 		)
@@ -6365,6 +6476,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 97.79 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,6 +6578,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 80.01 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c438d9e4-264d-4064-b990-604b31fba117")
 		)
@@ -6528,6 +6657,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47360ba5-277f-4bd3-8796-49f5146694f4")
 		)
@@ -6585,6 +6723,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
+			(at 151.13 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
