@@ -30,111 +30,232 @@ int adcval;
 /* ========= WEB SERVER ========= */
 WebServer server(80);
 
+/* ========= LED MODE ========= */
+int ledMode = 0;
+bool ledPower = true;
+
+uint8_t hue = 0;
+uint8_t brightness = 0;
+bool fadeDirection = true;
+
+/* ========= LED EFFECTS ========= */
+
+void effectSolid(CRGB color)
+{
+    for(int i=0;i<NUM_LEDS;i++)
+        leds[i]=color;
+
+    FastLED.show();
+}
+
+void effectRainbow()
+{
+    fill_rainbow(leds, NUM_LEDS, hue++, 5);
+    FastLED.show();
+}
+
+void effectColorWipe()
+{
+    static int pos = 0;
+
+    leds[pos] = CHSV(hue,255,255);
+    FastLED.show();
+
+    pos++;
+    if(pos>=NUM_LEDS)
+    {
+        pos=0;
+        FastLED.clear();
+        hue+=30;
+    }
+}
+
+void effectBreathing()
+{
+    static uint8_t currentHue = random8();   // start with random color
+
+    if(fadeDirection) brightness++;
+    else brightness--;
+
+    if(brightness >= 255)
+    {
+        fadeDirection = false;
+    }
+
+    if(brightness <= 0)
+    {
+        fadeDirection = true;
+        currentHue = random8();   // new random color each breath
+    }
+
+    fill_solid(leds, NUM_LEDS, CHSV(currentHue,255,brightness));
+    FastLED.show();
+}
+
+/* ========= LED CONTROLLER ========= */
+
+void updateLEDs()
+{
+    if(!ledPower)
+    {
+        FastLED.clear();
+        FastLED.show();
+        return;
+    }
+
+    switch(ledMode)
+    {
+        case 1: effectSolid(CRGB::Red); break;
+        case 2: effectSolid(CRGB::Green); break;
+        case 3: effectSolid(CRGB::Blue); break;
+        case 4: effectSolid(CRGB::DarkViolet); break;
+        case 5: effectRainbow(); break;
+        case 6: effectColorWipe(); break;
+        case 7: effectBreathing(); break;
+    }
+}
+
 /* ========= WEB PAGE ========= */
-void handleRoot() {
-  String page = "<!DOCTYPE html><html><head>";
-  page += "<meta http-equiv='refresh' content='1'>";
-  page += "<title>ESP32 Monitor</title></head><body>";
-  page += "<h2>ESP32 Web Monitor</h2>";
-  page += "<b>IP:</b> " + WiFi.localIP().toString() + "<br>";
-  page += "<b>ADC Value:</b> " + String(adcval) + "<br>";
-  page += "</body></html>";
 
-  server.send(200, "text/html", page);
+void handleRoot()
+{
+String page = R"rawliteral(
+<!DOCTYPE html>
+<html>
+<head>
+<title>ESP32 LED Control</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+button{width:120px;height:40px;font-size:16px;margin:5px;}
+</style>
+</head>
+<body>
+
+<h2>ESP32 LED Controller</h2>
+
+<h3>Power</h3>
+<a href="/on"><button>ON</button></a>
+<a href="/off"><button>OFF</button></a>
+
+<h3>Colors</h3>
+<a href="/mode?m=1">
+<button style="background-color:green;color:white;">Green</button>
+</a>
+<a href="/mode?m=2">
+<button style="background-color:red;color:white;">Red</button>
+</a>
+<a href="/mode?m=3">
+<button style="background-color:Blue;color:white;">Blue</button>
+</a>
+<a href="/mode?m=4">
+<button style="background-color:indigo;color:white;">indigo</button>
+</a>
+
+<h3>Effects</h3>
+<a href="/mode?m=5">
+<button style="
+background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+color:white;
+font-weight:bold;
+width:120px;
+height:40px;
+border:none;
+border-radius:8px;">
+Rainbow
+</button>
+</a>
+<a href="/mode?m=6"><button>Color Wipe</button></a>
+<a href="/mode?m=7"><button>Breathing</button></a>
+
+</body>
+</html>
+)rawliteral";
+
+server.send(200,"text/html",page);
 }
 
-void setup() {
-  /* ---------- Serial ---------- */
-  Serial.begin(115200);
-  Serial.println("ESP32 starting...");
+/* ========= WEB ACTIONS ========= */
 
-  /* ---------- WiFi ---------- */
-  WiFi.begin(ssid, password);
-  Serial.print("Connecting to WiFi");
-
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    Serial.print(".");
-  }
-
-  Serial.println("\nWiFi connected");
-  Serial.print("IP address: ");
-  Serial.println(WiFi.localIP());
-
-  /* ---------- OTA ---------- */
-  ArduinoOTA.setHostname("esp32-fastled");
-
-  ArduinoOTA.onStart([]() {
-    Serial.println("OTA Start");
-  });
-
-  ArduinoOTA.onEnd([]() {
-    Serial.println("\nOTA End");
-  });
-
-  ArduinoOTA.onProgress([](unsigned int progress, unsigned int total) {
-    Serial.printf("OTA Progress: %u%%\r", (progress * 100) / total);
-  });
-
-  ArduinoOTA.onError([](ota_error_t error) {
-    Serial.printf("OTA Error[%u]\n", error);
-  });
-
-  ArduinoOTA.begin();
-  Serial.println("OTA Ready");
-
-  /* ---------- Web Server ---------- */
-  server.on("/", handleRoot);
-  server.begin();
-  Serial.println("Web server started");
-
-  /* ---------- FastLED ---------- */
-  FastLED.addLeds<NEOPIXEL, DATA_ESP>(leds, NUM_LEDS);
-  FastLED.clear();
-  FastLED.show();
-
-  /* ---------- GPIO ---------- */
-  pinMode(eFuse_SHDN, OUTPUT);
-  pinMode(eFuse_Fault, INPUT);
-  pinMode(Button3, INPUT);
-  pinMode(LED_PIN1, OUTPUT);
-  pinMode(LED_PIN2, OUTPUT);
-  pinMode(LVL_GATE, OUTPUT);
-
-  /* ---------- Default States ---------- */
-  digitalWrite(eFuse_SHDN, LOW);
-  digitalWrite(LED_PIN1, HIGH);
-  digitalWrite(LED_PIN2, HIGH);
-  digitalWrite(LVL_GATE, HIGH);
+void handleOn()
+{
+    ledPower=true;
+    server.sendHeader("Location","/");
+    server.send(303);
 }
 
-void loop() {
-  ArduinoOTA.handle();     // OTA handling
-  server.handleClient();   // ⭐ REQUIRED for web server
+void handleOff()
+{
+    ledPower=false;
+    server.sendHeader("Location","/");
+    server.send(303);
+}
 
-  /* ---------- LED forward ---------- */
-  for (int i = 0; i < NUM_LEDS; i++) {
-    leds[i] = CRGB::Orange;
-    FastLED.show();
-    delay(50);
-    ArduinoOTA.handle();
-    server.handleClient();
-  }
+void handleMode()
+{
+    if(server.hasArg("m"))
+    {
+        ledMode = server.arg("m").toInt();
+    }
 
-  /* ---------- LED backward ---------- */
-  for (int i = NUM_LEDS - 1; i >= 0; i--) {
-    leds[i] = CRGB::DarkCyan;
-    FastLED.show();
-    delay(50);
-    ArduinoOTA.handle();
-    server.handleClient();
-  }
+    server.sendHeader("Location","/");
+    server.send(303);
+}
 
-  /* ---------- ADC ---------- */
-  adcval = analogRead(V_SNS);
+/* ========= SETUP ========= */
 
-  Serial.print("ADC Value = ");
-  Serial.println(adcval);
+void setup()
+{
+Serial.begin(115200);
 
-  delay(200);
+/* WIFI */
+WiFi.begin(ssid,password);
+
+while(WiFi.status()!=WL_CONNECTED)
+{
+delay(500);
+Serial.print(".");
+}
+
+Serial.println(WiFi.localIP());
+
+/* OTA */
+ArduinoOTA.begin();
+
+/* FASTLED */
+FastLED.addLeds<NEOPIXEL, DATA_ESP>(leds, NUM_LEDS);
+
+/* WEB */
+server.on("/",handleRoot);
+server.on("/on",handleOn);
+server.on("/off",handleOff);
+server.on("/mode",handleMode);
+
+server.begin();
+
+/* GPIO */
+pinMode(eFuse_SHDN, OUTPUT);
+pinMode(eFuse_Fault, INPUT);
+pinMode(Button3, INPUT);
+pinMode(LED_PIN1, OUTPUT);
+pinMode(LED_PIN2, OUTPUT);
+pinMode(LVL_GATE, OUTPUT);
+
+digitalWrite(eFuse_SHDN, LOW);
+digitalWrite(LED_PIN1, HIGH);
+digitalWrite(LED_PIN2, HIGH);
+digitalWrite(LVL_GATE, HIGH);
+}
+
+/* ========= LOOP ========= */
+
+void loop()
+{
+ArduinoOTA.handle();
+server.handleClient();
+
+updateLEDs();
+
+adcval = analogRead(V_SNS);
+
+delay(20);
 }
