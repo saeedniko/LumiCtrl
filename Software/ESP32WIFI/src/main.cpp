@@ -5,8 +5,8 @@
 #include <WebServer.h>
 
 /* ========= WIFI ========= */
-const char* ssid = "Jen_kocholo";
-const char* password = "S@lma+S@eed@02.2023";
+const char* ssid = "*****";
+const char* password = "*****";
 
 /* ========= FASTLED ========= */
 #define NUM_LEDS 139
